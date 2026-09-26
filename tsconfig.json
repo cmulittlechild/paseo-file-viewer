@@ -12,7 +12,13 @@
     "skipLibCheck": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "css-select/lib/types": [
+        "node_modules/css-select/lib/types.d.ts"
+      ]
+    }
   },
   "include": [
     "**/*.ts",
