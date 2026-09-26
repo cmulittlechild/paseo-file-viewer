@@ -1,5 +1,5 @@
 import type { PluginClientContext } from "@getpaseo/plugin/client";
-import { FileViewerPanel } from "./main.client.js";
+import { FileViewerPanel } from "./client/main.client.js";
 
 export default function contribute(client: PluginClientContext) {
   client.addWorkspacePanel({

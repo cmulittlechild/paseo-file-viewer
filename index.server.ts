@@ -1,5 +1,5 @@
 import type { PluginServerContext } from "@getpaseo/plugin/server";
-import { getPage, getRows, listFiles, openDoc } from "./contracts.js";
+import { getPage, getRows, listFiles, openDoc } from "./shared/contracts.js";
 import { readDocument, readRows, readSheetList } from "./server/office.js";
 import { safeResolve, workspaceRoot } from "./server/paths.js";
 import { imageInfo, pdfInfo, renderPage } from "./server/raster.js";
