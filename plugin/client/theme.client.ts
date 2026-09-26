@@ -1,4 +1,4 @@
-import type { PluginTheme } from "@getpaseo/plugin";
+import type { PluginTheme } from "@getpaseo/plugin/client";
 
 /**
  * Every colour comes from the host theme. Unstyled text renders black and is

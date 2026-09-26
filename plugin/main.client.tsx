@@ -1,4 +1,4 @@
-import { useRpc, type PluginWorkspacePanelProps } from "@getpaseo/plugin";
+import { useRpc, type PluginWorkspacePanelProps } from "@getpaseo/plugin/client";
 import { useQuery } from "@tanstack/react-query";
 import React, { useMemo, useState } from "react";
 import { ActivityIndicator, Pressable, Text, View } from "react-native";
